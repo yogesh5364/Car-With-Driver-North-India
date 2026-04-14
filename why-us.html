@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Choose Us | Car with Driver North India</title>
+  <meta name="description" content="Why Car With Driver North India? Experienced mountain drivers, GPS tracking, transparent pricing, 10,000+ happy customers, and true flexibility on every route." />
+  <link rel="canonical" href="https://www.carwithdrivernorthindia.com/why-us.html" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231B4332'/><text y='22' x='4' font-size='20'>🚗</text></svg>" />
+  <link rel="stylesheet" href="static/css/variables.css" />
+  <link rel="stylesheet" href="static/css/base.css" />
+  <link rel="stylesheet" href="static/css/components.css" />
+  <link rel="stylesheet" href="static/css/effects.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
+  <link rel="stylesheet" href="static/css/packages.css" />
+  <style>
+    .hero {
+      min-height: 440px;
+      background-image:
+        url('https://images.pexels.com/photos/15804640/pexels-photo-15804640.jpeg?cs=srgb&dl=pexels-dtanpt-15804640.jpg&fm=jpg');
+      background-size: cover;
+      background-position: center 55%;
+      background-attachment: fixed;
+    }
+    @media (max-width: 768px) { .hero { background-attachment: scroll; min-height: 52svh; } }
+
+    /* Big reasons grid */
+    .reasons-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:28px; margin-top:56px; }
+    .reason-card {
+      background:var(--surface); border-radius:var(--radius-lg); padding:36px 32px;
+      box-shadow:var(--shadow-sm); transition:transform .3s, box-shadow .3s;
+      border-left:4px solid transparent; position:relative; overflow:hidden;
+    }
+    .reason-card::before { content:''; position:absolute; inset:0; background:linear-gradient(135deg,var(--accent-pale) 0%,transparent 60%); opacity:0; transition:opacity .3s; }
+    .reason-card:hover { transform:translateY(-6px); box-shadow:var(--shadow-lg); border-left-color:var(--accent); }
+    .reason-card:hover::before { opacity:1; }
+    .reason-num { font-size:3rem; font-weight:900; color:var(--accent); opacity:.15; line-height:1; margin-bottom:4px; }
+    .reason-icon { font-size:2rem; margin-bottom:14px; }
+    .reason-title { font-size:1.15rem; font-weight:700; color:var(--text); margin-bottom:12px; }
+    .reason-desc { font-size:0.9rem; color:var(--text-muted); line-height:1.75; }
+
+    /* Comparison table */
+    .compare-table { width:100%; border-collapse:collapse; border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow-md); margin-top:48px; }
+    .compare-table th, .compare-table td { padding:16px 20px; text-align:left; font-size:0.9rem; }
+    .compare-table thead th { background:var(--accent); color:#fff; font-weight:700; }
+    .compare-table thead th:first-child { background:var(--accent-dark,#1B4332); }
+    .compare-table tbody tr:nth-child(even) td { background:var(--accent-pale); }
+    .compare-table tbody tr:hover td { background:rgba(var(--accent-rgb,45,106,79),.06); }
+    .compare-table td:first-child { font-weight:600; color:var(--text); }
+    .check { color:#2D6A4F; font-weight:700; font-size:1.1rem; }
+    .cross { color:#e53e3e; font-weight:700; font-size:1.1rem; }
+    .partial { color:#d69e2e; font-weight:700; }
+    @media(max-width:600px) {
+      .compare-table th, .compare-table td { padding:12px 14px; font-size:0.82rem; }
+    }
+
+    /* Process steps */
+    .process-steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:0; margin-top:48px; position:relative; }
+    .process-steps::after { content:''; position:absolute; top:44px; left:10%; right:10%; height:2px; background:linear-gradient(90deg,var(--accent),var(--gold)); opacity:.3; z-index:0; }
+    @media(max-width:700px){ .process-steps::after { display:none; } .process-steps { gap:24px; } }
+    .process-step { text-align:center; padding:0 16px; position:relative; z-index:1; }
+    .ps-circle { width:88px; height:88px; border-radius:50%; background:var(--accent); color:#fff; font-size:1.8rem; display:flex; align-items:center; justify-content:center; margin:0 auto 20px; box-shadow:0 8px 24px rgba(45,106,79,.3); }
+    .ps-title { font-size:1rem; font-weight:700; color:var(--text); margin-bottom:8px; }
+    .ps-desc { font-size:0.85rem; color:var(--text-muted); line-height:1.6; }
+  </style>
+</head>
+<body>
+
+<div class="trust-bar" aria-hidden="true">
+  <div class="trust-track">
+    <span class="trust-item"><span class="trust-dot"></span>10,000+ Happy Travellers</span>
+    <span class="trust-item"><span class="trust-dot"></span>Verified Local Drivers</span>
+    <span class="trust-item"><span class="trust-dot"></span>24/7 Customer Support</span>
+    <span class="trust-item"><span class="trust-dot"></span>No Hidden Charges</span>
+    <span class="trust-item"><span class="trust-dot"></span>Innova · Crysta · Tempo Traveller · Dzire · Ertiga</span>
+    <span class="trust-item"><span class="trust-dot"></span>10,000+ Happy Travellers</span>
+    <span class="trust-item"><span class="trust-dot"></span>Verified Local Drivers</span>
+    <span class="trust-item"><span class="trust-dot"></span>24/7 Customer Support</span>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+          <circle cx="7" cy="17" r="2" /><path d="M9 17h6" /><circle cx="17" cy="17" r="2" />
+        </svg>
+      </div>
+      <div class="logo-text">
+        <div class="logo-name">Car<span>Drive</span> NI</div>
+        <div class="logo-sub">North India Road Journeys</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="packages.html">Packages</a>
+      <a href="why-us.html" class="active">Why Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="tel:+919829807075" class="nav-cta">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.28-2.28a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+        Call Now
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" role="menu">
+    <a href="index.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Home
+    </a>
+    <a href="about.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+      About Us
+    </a>
+    <a href="packages.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+      Packages
+    </a>
+    <a href="why-us.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Why Us
+    </a>
+    <a href="contact.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Contact
+    </a>
+    <a href="tel:+919829807075" class="mob-cta">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l2.28-2.28a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+      Call Now — +91-9829807075
+    </a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="hero" aria-label="About hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <div class="page-hero-breadcrumb" style="justify-content:center; margin-bottom:20px;">
+        <a href="index.html">Home</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        <span>Why us</span>
+      </div>
+      <div class="page-hero-label">Curated Road Journeys</div>
+      <h1 class="page-hero-title">
+        Why Choose<br><em>CarDrive NI</em>
+      </h1>
+      <p class="page-hero-sub hero-reveal d2">The difference you feel on every mile — from mountain drivers who know every pass, to honest pricing and round-the-clock support.</p>
+    </div>
+  </div>
+  <svg class="page-hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#F7F2EA"/>
+  </svg>
+</section>
+
+<!-- TOP REASONS -->
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="sec-label reveal" style="justify-content:center;">Our Advantages</div>
+      <h2 class="sec-heading reveal d1" style="margin-top:14px;">8 Reasons Travellers <em>Choose Us</em></h2>
+      <div class="sec-divider sec-divider--center reveal d2"></div>
+      <p class="sec-sub sec-sub--center reveal d2" style="margin-top:14px;">We've served over 10,000 travellers since 2016. Here's what makes us different from a random cab booking.</p>
+    </div>
+
+    <div class="reasons-grid">
+      <div class="reason-card reveal stagger-item">
+        <div class="reason-num">01</div>
+        <div class="reason-icon">🏔️</div>
+        <div class="reason-title">Expert Mountain Drivers</div>
+        <div class="reason-desc">Our drivers have 5–15 years on mountain roads including Manali–Leh, Spiti, and Rohtang Pass. They know when to stop, when to push, and exactly how to handle altitude and landslide zones.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d1">
+        <div class="reason-num">02</div>
+        <div class="reason-icon">📍</div>
+        <div class="reason-title">Real-Time GPS Tracking</div>
+        <div class="reason-desc">Every vehicle has GPS so your family can follow your journey live. Peace of mind for loved ones back home — especially on remote routes.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d2">
+        <div class="reason-num">03</div>
+        <div class="reason-icon">💰</div>
+        <div class="reason-title">Transparent, Fixed Pricing</div>
+        <div class="reason-desc">We quote the full amount before departure — driver allowance, toll, parking — everything included. No bill shocks at journey end. Ever.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d3">
+        <div class="reason-num">04</div>
+        <div class="reason-icon">🕐</div>
+        <div class="reason-title">Flexible Itineraries</div>
+        <div class="reason-desc">Stop when you want, leave when you want. Our drivers work on your schedule — not a tour bus timetable. True freedom on the open road.</div>
+      </div>
+      <div class="reason-card reveal stagger-item">
+        <div class="reason-num">05</div>
+        <div class="reason-icon">🍵</div>
+        <div class="reason-title">Local Dhaba Secrets</div>
+        <div class="reason-desc">Your driver will take you to legendary roadside gems no Google Map will ever show — the best chole bhature near Murthal, the chai spot on Atal Tunnel approach.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d1">
+        <div class="reason-num">06</div>
+        <div class="reason-icon">🛡️</div>
+        <div class="reason-title">Police-Verified Drivers</div>
+        <div class="reason-desc">Every driver holds a commercial license and passes a police background check. You're in safe, accountable hands — not an anonymous driver from an app.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d2">
+        <div class="reason-num">07</div>
+        <div class="reason-icon">📞</div>
+        <div class="reason-title">24/7 Support on Route</div>
+        <div class="reason-desc">Our support team is available round the clock. Tyre puncture at 2 AM on Leh highway? Vehicle issue near Manali? We handle it — fast.</div>
+      </div>
+      <div class="reason-card reveal stagger-item d3">
+        <div class="reason-num">08</div>
+        <div class="reason-icon">🚗</div>
+        <div class="reason-title">Well-Maintained Fleet</div>
+        <div class="reason-desc">Every vehicle undergoes a thorough check before each trip. AC, clean interiors, working music, and enough boot space. No surprises on departure day.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section section--alt">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="sec-label reveal" style="justify-content:center;">How We Compare</div>
+      <h2 class="sec-heading reveal d1" style="margin-top:14px;">Us vs <em>the Alternatives</em></h2>
+      <div class="sec-divider sec-divider--center reveal d2"></div>
+    </div>
+    <div class="reveal d2" style="overflow-x:auto;margin-top:0;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>CarDrive NI ✓</th>
+            <th>Local Taxi</th>
+            <th>App-Based Cab</th>
+            <th>Tour Bus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Mountain Road Experience</td><td><span class="check">✓ 5–15 years</span></td><td><span class="partial">Varies</span></td><td><span class="cross">✗</span></td><td><span class="partial">Limited</span></td></tr>
+          <tr><td>Fixed Price (No Surprises)</td><td><span class="check">✓ Always</span></td><td><span class="cross">✗ Meters/haggling</span></td><td><span class="partial">Surge pricing</span></td><td><span class="check">✓</span></td></tr>
+          <tr><td>Flexible Itinerary</td><td><span class="check">✓ Fully yours</span></td><td><span class="partial">Sometimes</span></td><td><span class="cross">✗ Fixed routes</span></td><td><span class="cross">✗ Fixed schedule</span></td></tr>
+          <tr><td>GPS Tracking for Family</td><td><span class="check">✓ Live tracking</span></td><td><span class="cross">✗</span></td><td><span class="check">✓</span></td><td><span class="cross">✗</span></td></tr>
+          <tr><td>Police-Verified Driver</td><td><span class="check">✓ Always</span></td><td><span class="partial">Unverified</span></td><td><span class="partial">App-checked</span></td><td><span class="partial">Company-checked</span></td></tr>
+          <tr><td>24/7 Support on Route</td><td><span class="check">✓ Direct line</span></td><td><span class="cross">✗</span></td><td><span class="partial">Chat only</span></td><td><span class="partial">Limited</span></td></tr>
+          <tr><td>Local Knowledge & Tips</td><td><span class="check">✓ Deep expertise</span></td><td><span class="partial">Basic</span></td><td><span class="cross">✗</span></td><td><span class="partial">Script-based</span></td></tr>
+          <tr><td>Multi-Day Outstation Trips</td><td><span class="check">✓ Specialty</span></td><td><span class="partial">Rare</span></td><td><span class="cross">✗</span></td><td><span class="check">✓</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="sec-label reveal" style="justify-content:center;">Simple Process</div>
+      <h2 class="sec-heading reveal d1" style="margin-top:14px;">Book in <em>4 Easy Steps</em></h2>
+      <div class="sec-divider sec-divider--center reveal d2"></div>
+    </div>
+    <div class="process-steps reveal d2">
+      <div class="process-step">
+        <div class="ps-circle">📋</div>
+        <div class="ps-title">Tell Us Your Plan</div>
+        <div class="ps-desc">Share your route, dates, and group size via call, WhatsApp, or our contact form.</div>
+      </div>
+      <div class="process-step">
+        <div class="ps-circle">💬</div>
+        <div class="ps-title">Get a Free Quote</div>
+        <div class="ps-desc">We reply within 2 hours with a clear, all-inclusive price — no hidden extras.</div>
+      </div>
+      <div class="process-step">
+        <div class="ps-circle">✅</div>
+        <div class="ps-title">Confirm & Relax</div>
+        <div class="ps-desc">Book with a small advance. We send driver details 24 hours before departure.</div>
+      </div>
+      <div class="process-step">
+        <div class="ps-circle">🚗</div>
+        <div class="ps-title">Enjoy the Journey</div>
+        <div class="ps-desc">Your driver arrives on time, you travel at your pace. We handle everything else.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS QUICK -->
+<section class="section section--alt testi-section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:60px;">
+      <div class="sec-label reveal" style="justify-content:center;">Reviews</div>
+      <h2 class="sec-heading reveal d1" style="margin-top:14px;">What Our Travellers <em>Say</em></h2>
+      <div class="sec-divider sec-divider--center reveal d2"></div>
+    </div>
+    <div class="testi-grid">
+      <article class="testi-card reveal stagger-item">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Best car service I've experienced in India. The driver knew the Manali–Leh highway like the back of his hand. Confident, calm, and full of great local tips. Highly recommend!</p>
+        <div class="testi-footer"><div class="testi-avatar">AK</div><div><div class="testi-name">Arjun Kapoor</div><div class="testi-trip">Manali → Leh, June 2024</div></div><div class="testi-stars">★★★★★</div></div>
+      </article>
+      <article class="testi-card testi-card--alt reveal stagger-item d1">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We were a group of 10 for Haridwar. The Tempo Traveller was spotless, driver very polite, and the price was exactly as quoted. No extra demands at the end. Brilliant service!</p>
+        <div class="testi-footer"><div class="testi-avatar">SJ</div><div><div class="testi-name">Sunita Joshi</div><div class="testi-trip">Delhi → Haridwar, Feb 2024</div></div><div class="testi-stars">★★★★★</div></div>
+      </article>
+      <article class="testi-card reveal stagger-item d2">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">My elderly parents needed a comfortable, safe ride to Shimla. The team understood and provided a wonderful driver who was patient and accommodating throughout. 10/10!</p>
+        <div class="testi-footer"><div class="testi-avatar">RM</div><div><div class="testi-name">Ritu Mehta</div><div class="testi-trip">Delhi → Shimla, Jan 2025</div></div><div class="testi-stars">★★★★★</div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats-strip" aria-label="Key figures">
+  <div class="stats-inner">
+    <div class="stat-item"><span class="stat-num" data-count="10000" data-suffix="+">0</span><div class="stat-label">Happy Travellers</div></div>
+    <div class="stat-item"><span class="stat-num" data-count="8" data-suffix="+">0</span><div class="stat-label">Years Experience</div></div>
+    <div class="stat-item"><span class="stat-num" data-count="25" data-suffix="+">0</span><div class="stat-label">Destinations</div></div>
+    <div class="stat-item"><span class="stat-num" data-count="98" data-suffix="%">0</span><div class="stat-label">Customer Satisfaction</div></div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="section" style="padding:60px 0;">
+  <div class="container">
+    <div class="cta-block reveal">
+      <div>
+        <div class="cta-label">Convinced? Let's Go!</div>
+        <h2 class="cta-title">Plan Your North India<br><em>Road Trip Today</em></h2>
+        <p class="cta-desc">Call or WhatsApp for an instant, no-obligation quote. We reply within 2 hours with everything you need to know.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+919829807075" class="btn btn-gold btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l2.28-2.28a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call for Custom Trip
+        </a>
+        <a href="contact.html" class="btn btn-outline-light btn-lg">Send Enquiry</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-route-strip">
+    <div class="container">
+      <div class="footer-route-track">
+        <span class="footer-route-item">Delhi <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Manali <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Shimla <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Leh Ladakh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Amritsar <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Haridwar <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Mussoorie <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Rishikesh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Chandigarh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Dharamshala <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Spiti Valley <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Delhi <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Manali <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Shimla <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Leh Ladakh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Amritsar <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Haridwar <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Mussoorie <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Rishikesh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Chandigarh <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Dharamshala <span class="footer-route-sep">→</span></span>
+        <span class="footer-route-item">Spiti Valley <span class="footer-route-sep">→</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-body">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-name">Car<span>Drive</span> NI</div>
+          <div class="footer-tagline">North India Road Journeys</div>
+          <p class="footer-desc">Your trusted car with driver service for North India. From Delhi to Ladakh, Shimla to Varanasi — every mile handled with care.</p>
+          <div class="footer-cert">
+            <span class="footer-cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              Verified Company
+            </span>
+            <span class="footer-cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              24/7 Support
+            </span>
+          </div>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Instagram">in</a>
+            <a href="#" class="social-btn" aria-label="YouTube">&#9654;</a>
+            <a href="#" class="social-btn" aria-label="Twitter/X">&#120143;</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="packages.html">Packages</a>
+            
+            <a href="why-us.html">Why Choose Us</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Popular Packages</div>
+          <div class="footer-links">
+            <a href="packages/manali-package.html">Delhi to Manali</a>
+            <a href="packages/shimla-package.html">Delhi to Shimla</a>
+            <a href="packages/leh-ladakh-package.html">Manali to Leh Ladakh</a>
+            <a href="packages/haridwar-rishikesh-package.html">Haridwar &amp; Rishikesh</a>
+            <a href="packages/char-dham-package.html">Char Dham Yatra</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact Us</div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-label">Phone / WhatsApp</div>
+              <div class="footer-contact-val"><a href="tel:+919829807075">+91-9829807075</a></div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-label">Email</div>
+              <div class="footer-contact-val"><a href="mailto:info@carwithdrivernorthindia.com">info@carwithdrivernorthindia.com</a></div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <div class="footer-contact-label">Base Location</div>
+              <div class="footer-contact-val">Jaipur, Rajasthan India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">&#169; 2026 <span>CarDrive North India</span> All rights reserved</div>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="wa-float" href="https://wa.me/919829807075?text=Hi!%20I%20want%20to%20book%20a%20car%20with%20driver%20for%20North%20India%20trip" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<button class="back-top" id="back-top" aria-label="Back to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- JS -->
+<script src="static/js/main.js"></script>
+<script src="static/js/enquiry.js"></script>
+</body>
+</html>
